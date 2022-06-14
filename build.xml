@@ -431,9 +431,11 @@
 			<fileset file="build/lib/${xmlconf_jarname}"/>
 			<fileset file="build/lib/${maps_jarname}"/>
 			<fileset file="libs/marauroa.jar"/>
-			<fileset file="libs/groovy.jar"/>
+			<fileset file="libs/groovy-3.0.9.jar"/>
 			<fileset file="libs/guava.jar"/>
 			<fileset file="libs/log4j.jar"/>
+			<fileset file="libs/h2.jar"/>
+			<fileset file="libs/luaj-jse-3.0.1.jar"/>
 			<fileset file="libs/${mysqldriver_jarname}"/>
 		</copy>
 
